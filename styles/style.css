@@ -18,7 +18,15 @@
 } */
 
 /* common css starts */
-.btn-primary button{
+.btn-primary:hover{
+  background-color: rgb(255, 185, 98);
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+.btn-primary {
    color: white;
    background-color: #4E47FF;
    width: 132px;
@@ -29,7 +37,10 @@
    -moz-border-radius: 5px;
    -ms-border-radius: 5px;
    -o-border-radius: 5px;
+    ;
 }
+
+
 .btn-primary{
   color: white;
    background-color: #4E47FF;
@@ -41,6 +52,7 @@
    -moz-border-radius: 5px;
    -ms-border-radius: 5px;
    -o-border-radius: 5px;
+   display: inline-block;
 }
 
 /* common css ends */
@@ -58,6 +70,7 @@ nav{
     align-items: center;
     margin: 0 130px;
     padding: 50px 0;
+    text-align: center;
 
     
 }
@@ -78,6 +91,7 @@ nav{
   font-size: 65px;
   font-size: bold;
   font-family: "Raleway", sans-serif;
+  margin-bottom: 40px;
   
 }
 
@@ -118,7 +132,7 @@ nav{
 /* productive css starts */
 .productive-all{
   background-color: rgba(78, 71, 255, 0.1);
-  max-width: 1140px;
+  width: 1140px;
   text-align: center;
   margin: 116px 156px 137px 141px;
   border-radius: 24px;
@@ -196,3 +210,84 @@ nav{
 }
 
 /* user feedback css ends */
+/* ready items starts*/
+.ready-items{
+  max-width: 1140px;
+  text-align: center;
+  background-color:rgba(255, 255, 255, 1);
+  margin: 0 auto;
+  padding-bottom: 90px;
+  padding-top: 10px;
+}
+.ready-title{
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 20px;
+}
+.ready-descrip{
+  color: rgba(0, 0, 0, 0.5);
+  margin: 10px;
+}
+.ready-items img{
+  width: 840px;
+  border-radius: 48px;
+  -webkit-border-radius: 48px;
+  -moz-border-radius: 48px;
+  -ms-border-radius: 48px;
+  -o-border-radius: 48px;
+  display: block;
+  margin: 0 auto;
+  
+  
+
+}
+/* ready items ends*/
+
+/* login css starts */
+.login-container{
+  display: flex;
+  gap: 117px;
+  max-width: 1140px;
+  padding-top: 92px;
+  margin: 0 auto;
+  padding-bottom: 92px;
+
+}
+
+.login-title{
+  font-family: "Raleway", sans-serif;
+  font-size: 97px;
+  font-weight: bold;
+  padding-top: 130px;
+
+}
+.login-form form{
+  /* width: 497px;
+  height: 490px; */
+  
+}
+
+.login-form form input[ type="text"], .login-form form input[ type="email"]{
+  height: 60px;
+  width: 497px;
+  border: none;
+  display: block;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-bottom: 19px;
+  padding: 20px 32px;
+}
+.login-form form textarea{
+  display: block;
+  border: none;
+}
+.login-form form input[ type="button"]{
+  text-align: center;
+  margin-left: 164px;
+}
+/* login css ends */
